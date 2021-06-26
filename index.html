@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meat | HELI Healthy Groceries</title>
+</head>
+<body>
+    <div>    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo2.png" width="100px" height="60px" alt="">
+            </a>
+            <button class="navbar-toggler" id="nine" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              </ul>
+              <span class="navbar-text">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                    <li class="nav-item">
+                      <a class="nav-link active" id="nine" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="nine" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          shop
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="../Vegetables/index.html">Vegetables</a></li>
+                          <li><a class="dropdown-item" href="../fruits/index.html">Fruits</a></li>
+                          <li><a class="dropdown-item" href="#">Meat</a></li>
+                          <li><a class="dropdown-item" href="../Dairy/index.html">Dairy</a></li>
+                          <li><a class="dropdown-item" href="../bakery/index.html">Bakery</a></li>
+                          <li><a class="dropdown-item" href="../beverages/index.html">Beverages</a></li>
+                        </ul>
+                      </li>
+                      &nbsp; &nbsp; &nbsp; &nbsp;
+                      <a href="../login/index.html"><button class="hyder"> Log In/Sign Up </button> </a>
+                  </ul>
+              </span>
+            </div>
+          </div>
+          <form class="form-inline">
+              <a class="navbar-brand" href="#">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>Shopping Cart
+            </a>
+              </form>
+        </nav>
+        <div class="veg">
+            <div class="heading">
+                <h2>Meat</h2>
+            </div>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="images/beef boti.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Beef Boti <br> (1Kg)</h5>
+                              <p class="card-text">Rs. 750</p>
+                              <ul class="pagination justify-content-end set_quantity">
+                                <li class="page-item">
+                                  <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                                  </button>
+                                </li>
+                                <li class="page-item"><input type="text " name="" 
+                                 class="page-link" value="1"id="textbox"></li>
+                                 <li>
+                                  <button class="page-link" onclick="increaseNumber()"><i class="fa fa-plus" aria-hidden="true"></i>
+                                  </i>
+                                  </button>
+                                </li>
+                             </ul>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="images/beef cubes.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Ceef Cubes <br>(1Kg)</h5>
+                              <p class="card-text">Rs. 750</p>
+                              <ul class="pagination justify-content-end set_quantity">
+                                <li class="page-item">
+                                  <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                                  </button>
+                                </li>
+                                <li class="page-item"><input type="text " name="" 
+                                 class="page-link" value="1"id="textbox"></li>
+                                 <li>
+                                  <button class="page-link"><i class="fa fa-plus" aria-hidden="true"></i>
+                                  </i>
+                                  </button>
+                                </li>
+                             </ul>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="images/beef mince.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Beef Mince <br> (1Kg)</h5>
+                              <p class="card-text">Rs. 760</p>
+                              <ul class="pagination justify-content-end set_quantity">
+                                <li class="page-item">
+                                  <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                                  </button>
+                                </li>
+                                <li class="page-item"><input type="text " name="" 
+                                 class="page-link" value="1"id="textbox"></li>
+                                 <li>
+                                  <button class="page-link"><i class="fa fa-plus" aria-hidden="true"></i>
+                                  </i>
+                                  </button>
+                                </li>
+                             </ul>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="images/beef slice.jpg"  class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Beef Slice <br> (1Kg)</h5>
+                              <p class="card-text">Rs. 800</p>
+                              <ul class="pagination justify-content-end set_quantity">
+                                <li class="page-item">
+                                  <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                                  </button>
+                                </li>
+                                <li class="page-item"><input type="text " name="" 
+                                 class="page-link" value="1"id="textbox"></li>
+                                 <li>
+                                  <button class="page-link"><i class="fa fa-plus" aria-hidden="true"></i>
+                                  </i>
+                                  </button>
+                                </li>
+                             </ul>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+        
+                      <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="images/chicken boneless breast.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Chicken Boneless Breast (1Kg)</h5>
+                              <p class="card-text">Rs. 750</p>
+                              <ul class="pagination justify-content-end set_quantity">
+                                <li class="page-item">
+                                  <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                                  </button>
+                                </li>
+                                <li class="page-item"><input type="text " name="" 
+                                 class="page-link" value="1"id="textbox"></li>
+                                 <li>
+                                  <button class="page-link"><i class="fa fa-plus" aria-hidden="true"></i>
+                                  </i>
+                                  </button>
+                                </li>
+                             </ul>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="images/chicken boneless cubes.jpeg"id="head" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Chicken Boneless Cubes (1kg)</h5>
+                              <p class="card-text">Rs. 760</p>
+                              <ul class="pagination justify-content-end set_quantity">
+                                <li class="page-item">
+                                  <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                                  </button>
+                                </li>
+                                <li class="page-item"><input type="text " name="" 
+                                 class="page-link" value="1"id="textbox"></li>
+                                 <li>
+                                  <button class="page-link"><i class="fa fa-plus" aria-hidden="true"></i>
+                                  </i>
+                                  </button>
+                                </li>
+                             </ul>
+                              <a href="#" id="head" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="images/chicken boti cut.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Chicken Boti Cut <br> (1Kg)</h5>
+                              <p class="card-text">Rs. 550</p>
+                              <ul class="pagination justify-content-end set_quantity">
+                                <li class="page-item">
+                                  <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                                  </button>
+                                </li>
+                                <li class="page-item"><input type="text " name="" 
+                                 class="page-link" value="1"id="textbox"></li>
+                                 <li>
+                                  <button class="page-link"><i class="fa fa-plus" aria-hidden="true"></i>
+                                  </i>
+                                  </button>
+                                </li>
+                             </ul>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="images/chicken mince.jpg"  class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Chicken Mince <br> (1Kg)</h5>
+                              <p class="card-text">Rs. 720</p>
+                              <ul class="pagination justify-content-end set_quantity">
+                                <li class="page-item">
+                                  <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                                  </button>
+                                </li>
+                                <li class="page-item"><input type="text " name="" 
+                                 class="page-link" value="1"id="textbox"></li>
+                                 <li>
+                                  <button class="page-link"><i class="fa fa-plus" aria-hidden="true"></i>
+                                  </i>
+                                  </button>
+                                </li>
+                             </ul>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="images/mutton chops.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Mutton Chops <br> (1Kg)</h5>
+                              <p class="card-text">Rs. 1480</p>
+                              <ul class="pagination justify-content-end set_quantity">
+                                <li class="page-item">
+                                  <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                                  </button>
+                                </li>
+                                <li class="page-item"><input type="text " name="" 
+                                 class="page-link" value="1"id="textbox"></li>
+                                 <li>
+                                  <button class="page-link"><i class="fa fa-plus" aria-hidden="true"></i>
+                                  </i>
+                                  </button>
+                                </li>
+                             </ul>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="images/mutton leg.jpg" id="lead" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Mutton Leg <br> (1Kg)</h5>
+                              <p class="card-text">Rs. 1300</p>
+                              <ul class="pagination justify-content-end set_quantity">
+                                <li class="page-item">
+                                  <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                                  </button>
+                                </li>
+                                <li class="page-item"><input type="text " name="" 
+                                 class="page-link" value="1"id="textbox"></li>
+                                 <li>
+                                  <button class="page-link"><i class="fa fa-plus" aria-hidden="true"></i>
+                                  </i>
+                                  </button>
+                                </li>
+                             </ul>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="images/mutton shoulder cut.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Mutton Shoulder <br> Cut (1Kg)</h5>
+                              <p class="card-text">Rs. 1320</p>
+                              <ul class="pagination justify-content-end set_quantity">
+                                <li class="page-item">
+                                  <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                                  </button>
+                                </li>
+                                <li class="page-item"><input type="text " name="" 
+                                 class="page-link" value="1"id="textbox"></li>
+                                 <li>
+                                  <button class="page-link"><i class="fa fa-plus" aria-hidden="true"></i>
+                                  </i>
+                                  </button>
+                                </li>
+                             </ul>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="images/mutton-mince.jpeg"  class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" id="hot">Mutton Mince <br> (1Kg)</h5>
+                              <p class="card-text" id="hot">Rs. 1400</p>
+                              <ul class="pagination justify-content-end set_quantity">
+                                <li class="page-item">
+                                  <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                                  </button>
+                                </li>
+                                <li class="page-item"><input type="text " name="" 
+                                 class="page-link" value="1"id="textbox"></li>
+                                 <li>
+                                  <button class="page-link"><i class="fa fa-plus" aria-hidden="true"></i>
+                                  </i>
+                                  </button>
+                                </li>
+                             </ul>
+                              <a href="#" class="btn btn-primary" id="hot">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+                  <br><br>
+                  <div class="footer">
+                    <h4>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> HELI Healthy Groceries</h4>
+                  </div>
+             
+              </div>
+
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>

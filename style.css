@@ -1,0 +1,146 @@
+.navbar{
+    position: fixed;
+    display: flex;
+    background-color: white !important;
+    box-shadow: 2px 4px 5px gray !important;
+    position: sticky !important;
+    z-index: 100000 !important;
+    transition: 0.6s;
+    justify-content: space-between;
+    top: 0%;
+    left: 0;
+}
+.nav-link{
+    color: #3B9C9C !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 30px !important;
+}
+.nav-item{
+    margin-left: 20px;
+ }
+.dropdown-menu{
+    text-transform: uppercase;
+}
+.hyder{
+    background-color: white;
+    color: #3B9C9C;
+    border-radius: 40px;
+    width: 170px;
+    height: 50px;
+    border-style: none;
+    margin: -6px auto auto;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.hyder:hover{
+    background-color: #3B9C9C;
+    color: white;
+    transition: .5s;
+}
+.ryder{
+    background-color: white;
+    color: #3B9C9C;
+    border-radius: 40px;
+    width: 100px;
+    height: 50px;
+    margin: -6px auto auto;
+    border-style: none;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.ryder:hover{
+    background-color: #3B9C9C;
+    color: white;
+    transition: .5s;
+}
+.fa-shopping-cart,.fa-user-circle-o{
+    font-size: 30px !important;
+}
+.fa-shopping-cart:hover,.fa-user-circle-o:hover{
+    color: teal;
+}
+#nine:hover{
+    color: teal !important;
+}
+.navbar-brand{
+    margin-left: 40px;
+}
+.veg{
+    margin-top: 50px; 
+}
+.card{
+    width: 250px;
+    height: auto;
+    margin: auto auto 20px;
+    box-shadow: 2px 4px 5px gray !important;
+    justify-content: space-around !important;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+    overflow: hidden ;
+    transform-origin: right;
+    color: #3B9C9C;
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color: #3B9C9C;
+    border: none;
+
+}
+.btn-primary:hover{
+    background-color: teal;
+}
+.card-img-top{
+    width: 100%;
+    height: 150px;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: #3B9C9C;
+    margin: 50px;
+    text-decoration: underline;
+}
+.heading > h2{
+    text-shadow: 2px 2px 4px teal;
+    font-size: 74px;
+}
+.footer{
+    width: 100%;
+    background-color: #3B9C9C;
+    height: 70px;
+    justify-content: center;
+
+}
+.footer > div{
+    text-align: center;
+    align-items: center;
+}
+h4{
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.form-inline a{
+    font-size: 25px;
+    color: #3B9C9C !important;
+    text-decoration-line: none;
+    margin: 68px;
+    font-weight: 20px;
+}
+.form-inline a:hover{
+    color: teal !important;
+}
+.page-link{
+    width: 40px;
+    color: #3B9C9C;
+    text-align: center !important;
+    justify-content: center !important;
+    align-content: center !important;
+}
